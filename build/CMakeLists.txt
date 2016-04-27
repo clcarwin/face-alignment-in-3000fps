@@ -7,7 +7,7 @@ set(source ./../liblinear/blas/blas.h ./../liblinear/blas/blasp.h ./../liblinear
 
 
 #if you don't want to use openMP, you should comment this line
-FIND_PACKAGE( OpenMP REQUIRED)
+# FIND_PACKAGE( OpenMP REQUIRED)
 
 
 if(OPENMP_FOUND)
